@@ -7,13 +7,13 @@
 }
 
 body {
-    background: #eaeaea;
+    background: #ececec;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
 .title {
-    margin-top: 15px;
+    margin-top: 9px;
     font-size: 30px;
 }
 
@@ -47,9 +47,13 @@ h3 {
     font-weight: 700;
 }
 
+.subheading {
+    margin-bottom: 20px;
+}
+
 canvas {
     display: block;
-    margin: 15px auto;
+    margin: 0 auto;
     cursor: pointer;
 }
 
@@ -61,7 +65,7 @@ canvas {
     border: 0;
     outline: 0;
     border-radius: 5px;
-    margin: 0 15px;
+    margin: 15px 15px;
     cursor: pointer;
 }
 
@@ -80,6 +84,7 @@ canvas {
 #reset:hover {
     background: #800000;
 }
+
 
 
 
