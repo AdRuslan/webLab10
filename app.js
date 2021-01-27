@@ -83,6 +83,7 @@ const init = (reset = false) => {
     gameActive = true;     //  active | inactive
     mc = 0;                // moves counter
     p1_score = reset ? 0 : p1_score;
+    p2_score = reset ? 0 : p2_score;
 
     document.querySelector('#player1').textContent = p1_score;
     document.querySelector('#player2').textContent = p2_score;
