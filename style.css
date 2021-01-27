@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eaeaea;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.score-container {
+    margin: 15px 0;
+}
+
+.players-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 15px auto;
+}
+
+.heading {
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+canvas {
+    display: block;
+    margin: 15px auto;
+    cursor: pointer;
+}
+
+.game-btn {
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    color: #eeeeee;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+#new-round {
+    background: #1bb308;
+}
+
+#new-round:hover {
+    background: #077200;
+}
+
+#reset {
+    background: #de0000;
+}
+
+#reset:hover {
+    background: #800000;
+}
+
+
+
+
