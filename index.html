@@ -7,6 +7,32 @@
 </head>
 <body>
 
+<div class="title">
+    <h1>Крестики-нолики</h1>
+    <h3>Логическая игра между двумя противниками</h3>
+</div>
+
+<div class="score-container">
+    <h2>Количество побед</h2>
+    <div class="score">
+        Первый игрок:<span class="player1">0</span>
+    </div>
+    <div class="score">
+        Второй игрок:<span class="player2">0</span>
+    </div>
+</div>
+
+<div class="move-container">
+    <p class="heading"></p>
+    <p class="subheading" id="turn">Ходит первый игрок - X</p>
+</div>
+
+<canvas id="tic"></canvas>
+
+<div class="btns-container">
+    <button class="game-btn" id="new-round">Новый раунд</button>
+    <button class="game-btn" id="reset">Сброс</button>
+</div>
 
 <script src="app.js"></script>
 </body>
